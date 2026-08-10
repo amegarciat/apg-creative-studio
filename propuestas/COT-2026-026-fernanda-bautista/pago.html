@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pago y Entrega | APG Creative Studio</title>
+
+<link rel="canonical" href="https://amegarciat.github.io/apg-creative-studio/propuestas/pago-entrega-fernanda-bautista/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="APG Creative Studio">
+<meta property="og:title" content="Pago y Entrega | APG Creative Studio">
+<meta property="og:description" content="Datos de pago y entrega de fotografías para la Familia Ríos Bautista.">
+<meta property="og:url" content="https://amegarciat.github.io/apg-creative-studio/propuestas/pago-entrega-fernanda-bautista/">
+
+<meta property="og:image" content="https://amegarciat.github.io/apg-creative-studio/propuestas/apgstudio.png">
+<meta property="og:image:secure_url" content="https://amegarciat.github.io/apg-creative-studio/propuestas/apgstudio.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="APG Creative Studio">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pago y Entrega | APG Creative Studio">
+<meta name="twitter:description" content="Datos de pago y entrega de fotografías para la Familia Ríos Bautista.">
+<meta name="twitter:image" content="https://amegarciat.github.io/apg-creative-studio/propuestas/apgstudio.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF7F0;
+    --paper-deep:#F2ECE0;
+    --ink:#1B1811;
+    --ink-soft:#4A443A;
+    --brass:#A8813F;
+    --brass-deep:#8A6A30;
+    --stone:#8A8377;
+    --line:#DED5C2;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--paper-deep);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding:32px 16px;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+  }
+  .doc{
+    width:100%;
+    max-width:480px;
+    background:var(--paper);
+    border:1px solid var(--line);
+    position:relative;
+  }
+  .doc::before{
+    content:"";
+    position:absolute;
+    inset:10px;
+    border:1px solid var(--line);
+    pointer-events:none;
+  }
+  .inner{ padding:44px 32px 36px; }
+
+  /* Header / monogram */
+  .brand{
+    text-align:center;
+    padding-bottom:26px;
+    border-bottom:1px solid var(--line);
+  }
+  .monogram{
+    font-family:'Fraunces', serif;
+    font-size:15px;
+    letter-spacing:0.32em;
+    font-weight:500;
+    color:var(--ink);
+  }
+  .monogram-rule{
+    width:34px;
+    height:1px;
+    background:var(--brass);
+    margin:10px auto;
+  }
+  .tagline{
+    font-size:10.5px;
+    letter-spacing:0.14em;
+    color:var(--stone);
+    text-transform:uppercase;
+  }
+
+  /* Meta row */
+  .meta{
+    display:flex;
+    justify-content:space-between;
+    padding:18px 0 22px;
+    font-size:11px;
+    letter-spacing:0.04em;
+    color:var(--stone);
+  }
+
+  /* Title */
+  .title-block{ padding-bottom:22px; }
+  .eyebrow{
+    font-size:10.5px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--brass-deep);
+    margin-bottom:8px;
+    font-weight:600;
+  }
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:400;
+    font-size:28px;
+    line-height:1.15;
+    color:var(--ink);
+  }
+  .for-line{
+    margin-top:12px;
+    font-size:14px;
+    color:var(--ink-soft);
+  }
+  .for-line span{ color:var(--ink); font-weight:500; }
+
+  /* Package panel */
+  .panel{
+    background:var(--paper-deep);
+    border:1px solid var(--line);
+    padding:26px 24px;
+    margin:6px 0 22px;
+  }
+  .panel .eyebrow{ margin-bottom:10px; }
+  .pkg-name{
+    font-family:'Fraunces', serif;
+    font-size:19px;
+    margin-bottom:16px;
+    color:var(--ink);
+  }
+  .pkg-list{ list-style:none; }
+  .pkg-list li{
+    font-size:13.5px;
+    color:var(--ink-soft);
+    padding:8px 0;
+    border-top:1px solid var(--line);
+    display:flex;
+    gap:10px;
+  }
+  .pkg-list li:first-child{ border-top:none; }
+  .pkg-list li::before{
+    content:"—";
+    color:var(--brass);
+    flex-shrink:0;
+  }
+
+  /* Price block */
+  .price-block{
+    text-align:center;
+    padding:26px 20px 24px;
+    margin-bottom:22px;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .price-list{
+    font-size:15px;
+    color:var(--stone);
+    text-decoration:line-through;
+    text-decoration-color:var(--brass);
+    margin-bottom:6px;
+  }
+  .price-final{
+    font-family:'Fraunces', serif;
+    font-size:42px;
+    color:var(--ink);
+    line-height:1;
+  }
+  .price-final sup{
+    font-size:16px;
+    font-weight:500;
+    margin-right:2px;
+  }
+  .price-note{
+    margin-top:10px;
+    font-size:11.5px;
+    letter-spacing:0.05em;
+    color:var(--brass-deep);
+    text-transform:uppercase;
+  }
+
+  /* Details grid */
+  .details{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px 16px;
+    margin-bottom:30px;
+  }
+  .detail-label{
+    font-size:9.5px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--stone);
+    margin-bottom:4px;
+  }
+  .detail-value{
+    font-size:13.5px;
+    color:var(--ink);
+    font-weight:500;
+  }
+
+  /* Signature */
+  .sign{
+    border-top:1px solid var(--line);
+    padding-top:22px;
+    text-align:center;
+  }
+  .sign-studio{
+    font-family:'Fraunces', serif;
+    font-size:15px;
+    letter-spacing:0.02em;
+    color:var(--ink);
+    margin-bottom:4px;
+  }
+  .sign-role{
+    font-size:10.5px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--stone);
+    margin-bottom:14px;
+  }
+  .sign-contact{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.7;
+  }
+  .sign-contact a{ color:var(--brass-deep); text-decoration:none; }
+
+  .cta-btn{
+    display:block;
+    text-align:center;
+    background:var(--ink);
+    color:var(--paper);
+    text-decoration:none;
+    font-size:13px;
+    letter-spacing:0.04em;
+    padding:13px 18px;
+    margin-top:16px;
+    border-radius:2px;
+  }
+  .cta-btn.brass{ background:var(--brass); }
+  .cta-btn.outline{
+    background:transparent;
+    color:var(--ink);
+    border:1px solid var(--line);
+    cursor:pointer;
+    font-family:'Inter', sans-serif;
+    width:100%;
+  }
+  .cta-btn.outline:active{ background:var(--paper-deep); }
+  .bank-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:13.5px;
+    color:var(--ink-soft);
+    padding:8px 0;
+    border-top:1px solid var(--line);
+  }
+  .bank-row:first-child{ border-top:none; }
+  .bank-row .k{ color:var(--stone); }
+  .bank-row .v{ color:var(--ink); font-weight:500; }
+  .breakdown-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:13.5px;
+    color:var(--ink-soft);
+    padding:8px 0;
+    border-top:1px solid var(--line);
+  }
+  .breakdown-row:first-child{ border-top:none; }
+  .breakdown-row.total{
+    margin-top:4px;
+    padding-top:14px;
+    border-top:1px solid var(--ink);
+  }
+  .breakdown-row.total .k{
+    font-weight:600;
+    color:var(--ink);
+    text-transform:uppercase;
+    font-size:11.5px;
+    letter-spacing:0.06em;
+    align-self:center;
+  }
+  .breakdown-row.total .v{
+    font-family:'Fraunces', serif;
+    font-size:24px;
+    color:var(--ink);
+  }
+  .note-text{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.6;
+    margin-top:14px;
+  }
+  .note-text strong{ color:var(--ink); }
+
+  @media (max-width:380px){
+    .inner{ padding:34px 22px 28px; }
+    h1{ font-size:24px; }
+    .price-final{ font-size:36px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="doc">
+  <div class="inner">
+
+    <div class="brand">
+      <div class="monogram">A P G</div>
+      <div class="monogram-rule"></div>
+      <div class="tagline">Photography · Films · Creative Production</div>
+    </div>
+
+    <div class="meta">
+      <span>Pago y Entrega</span>
+      <span>Agosto 2026</span>
+    </div>
+
+    <div class="title-block">
+      <div class="eyebrow">Sesión de Cumpleaños</div>
+      <h1>Gracias, Familia Ríos Bautista</h1>
+      <div class="for-line">Datos de pago y entrega de tus fotos.</div>
+    </div>
+
+    <div class="panel">
+      <div class="eyebrow">Opción 1</div>
+      <div class="pkg-name">Mercado Pago</div>
+      <div class="breakdown-row"><span class="k">Subtotal</span><span class="v">$4,200.00 MXN</span></div>
+      <div class="breakdown-row"><span class="k">Cargo por uso de plataforma</span><span class="v">$182.12 MXN</span></div>
+      <div class="breakdown-row total"><span class="k">Total</span><span class="v">$4,382.12</span></div>
+      <a href="https://mpago.la/1SRxdUW" class="cta-btn brass">Pagar con Mercado Pago</a>
+    </div>
+
+    <div class="panel">
+      <div class="eyebrow">Opción 2 — Sin cargo extra</div>
+      <div class="pkg-name">Transferencia bancaria</div>
+      <div class="bank-row"><span class="k">Banco</span><span class="v">Nu México</span></div>
+      <div class="bank-row"><span class="k">CLABE</span><span class="v">638180010198355169</span></div>
+      <div class="bank-row"><span class="k">Beneficiario</span><span class="v">Alan Picón</span></div>
+      <div class="bank-row"><span class="k">Monto</span><span class="v">$4,200.00 MXN</span></div>
+      <button type="button" class="cta-btn outline" id="copyBankBtn" onclick="copyBankDetails()">Copiar datos bancarios</button>
+    </div>
+
+    <div class="panel">
+      <div class="eyebrow">Tus fotografías</div>
+      <div class="pkg-name">Galería digital</div>
+      <p class="note-text">Tienes <strong>15 días hábiles</strong> para descargar tus imágenes desde el drive. Después de ese periodo el link se desactiva, así que te recomendamos guardarlas en tu computadora o celular en cuanto puedas.</p>
+      <a href="https://drive.google.com/drive/folders/1tZKO9ZophU28cQ7DGmyEeB7SVD1SHmAE?usp=sharing" class="cta-btn">Ver galería</a>
+    </div>
+
+    <div class="sign">
+      <div class="sign-studio">APG Creative Studio</div>
+      <div class="sign-role">Photography & Films</div>
+      <div class="sign-contact">
+        América García · <a href="https://wa.me/528120510233">812 051 0233</a><br>
+        Alan Picón · <a href="https://wa.me/528180118403">818 011 8403</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  function copyBankDetails(){
+    var text = "Banco: Nu México\nCLABE: 638180010198355169\nBeneficiario: Alan Picón\nMonto: $4,200.00 MXN";
+    var btn = document.getElementById('copyBankBtn');
+    function showCopied(){
+      var original = btn.textContent;
+      btn.textContent = 'Copiado ✓';
+      setTimeout(function(){ btn.textContent = original; }, 2000);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(showCopied).catch(function(){
+        fallbackCopy(text, showCopied);
+      });
+    } else {
+      fallbackCopy(text, showCopied);
+    }
+  }
+  function fallbackCopy(text, cb){
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    try{ document.execCommand('copy'); }catch(e){}
+    document.body.removeChild(ta);
+    cb();
+  }
+</script>
+
+</body>
+</html>
