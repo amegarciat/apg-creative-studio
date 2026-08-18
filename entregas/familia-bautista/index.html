@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrega — Familia Ríos Bautista | APG Creative Studio</title>
+
+<link rel="canonical" href="https://amegarciat.github.io/apg-creative-studio/entregas/familia-bautista/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="APG Creative Studio">
+<meta property="og:title" content="Entrega — Familia Ríos Bautista | APG Creative Studio">
+<meta property="og:description" content="Galería y video de la fiesta de Juan Daniel, preparados especialmente para la Familia Ríos Bautista.">
+<meta property="og:url" content="https://amegarciat.github.io/apg-creative-studio/entregas/familia-bautista/">
+<meta property="og:image" content="https://amegarciat.github.io/apg-creative-studio/propuestas/apgstudio.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF7F0;
+    --paper-deep:#F2ECE0;
+    --ink:#1B1811;
+    --ink-soft:#4A443A;
+    --brass:#A8813F;
+    --brass-deep:#8A6A30;
+    --stone:#8A8377;
+    --line:#DED5C2;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{
+    background:var(--paper-deep);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  header{
+    text-align:center;
+    padding:56px 24px 40px;
+    border-bottom:1px solid var(--line);
+    background:var(--paper);
+  }
+  .monogram{
+    font-family:'Fraunces', serif;
+    font-size:15px;
+    letter-spacing:0.32em;
+    font-weight:500;
+  }
+  .monogram-rule{
+    width:34px; height:1px;
+    background:var(--brass);
+    margin:12px auto;
+  }
+  .tagline{
+    font-size:10.5px;
+    letter-spacing:0.14em;
+    color:var(--stone);
+    text-transform:uppercase;
+    margin-bottom:24px;
+  }
+  .eyebrow{
+    font-size:10.5px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--brass-deep);
+    font-weight:600;
+    margin-bottom:8px;
+    text-align:center;
+  }
+  header h1{
+    font-family:'Fraunces', serif;
+    font-weight:400;
+    font-size:clamp(26px, 6vw, 38px);
+    color:var(--ink);
+  }
+  header .for-line{
+    margin-top:12px;
+    font-size:14px;
+    color:var(--ink-soft);
+  }
+  header .for-line span{ color:var(--ink); font-weight:500; }
+  header p.desc{
+    margin-top:16px;
+    font-size:13.5px;
+    color:var(--ink-soft);
+    max-width:440px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:1.6;
+  }
+
+  section{
+    max-width:1040px;
+    margin:0 auto;
+    padding:56px 20px;
+  }
+  .section-title{
+    font-family:'Fraunces', serif;
+    font-size:24px;
+    text-align:center;
+    margin-bottom:36px;
+    color:var(--ink);
+  }
+
+  .video-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap:24px;
+  }
+  .video-card{
+    background:var(--paper);
+    border:1px solid var(--line);
+    overflow:hidden;
+  }
+  .video-card video{
+    width:100%;
+    display:block;
+    background:#000;
+    aspect-ratio:9/16;
+    object-fit:cover;
+    max-height:640px;
+  }
+  .video-caption{
+    padding:14px 16px;
+    font-size:12px;
+    letter-spacing:0.04em;
+    color:var(--stone);
+    text-transform:uppercase;
+  }
+
+  .photo-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:6px;
+  }
+  .photo-grid img{
+    width:100%;
+    height:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    display:block;
+    border:1px solid var(--paper);
+  }
+  @media (max-width:560px){
+    .photo-grid{ grid-template-columns:repeat(2, 1fr); }
+  }
+
+  .drive-cta{
+    max-width:520px;
+    margin:0 auto;
+    text-align:center;
+    background:var(--paper);
+    border:1px solid var(--line);
+    padding:40px 28px;
+  }
+  .drive-cta .eyebrow{ margin-bottom:12px; }
+  .drive-cta h3{
+    font-family:'Fraunces', serif;
+    font-size:20px;
+    margin-bottom:10px;
+  }
+  .drive-cta p{
+    font-size:13.5px;
+    color:var(--ink-soft);
+    line-height:1.6;
+    margin-bottom:22px;
+  }
+  .drive-btn{
+    display:inline-block;
+    padding:14px 32px;
+    background:var(--ink);
+    color:var(--paper);
+    text-decoration:none;
+    font-size:12px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    font-weight:600;
+  }
+  .drive-btn:hover{ background:var(--brass-deep); }
+  .download-note{
+    margin-top:18px;
+    font-size:11px;
+    letter-spacing:0.04em;
+    color:var(--brass-deep);
+    text-transform:uppercase;
+  }
+
+  footer{
+    text-align:center;
+    padding:40px 20px 56px;
+    border-top:1px solid var(--line);
+  }
+  .sign-studio{
+    font-family:'Fraunces', serif;
+    font-size:15px;
+    margin-bottom:4px;
+  }
+  .sign-contact{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.7;
+  }
+  .sign-contact a{ color:var(--brass-deep); text-decoration:none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="monogram">A P G</div>
+  <div class="monogram-rule"></div>
+  <div class="tagline">Photography · Films · Creative Production</div>
+  <div class="eyebrow">Entrega</div>
+  <h1>Fiesta de Juan Daniel</h1>
+  <div class="for-line">Para: <span>Familia Ríos Bautista</span></div>
+  <p class="desc">Una selección de nuestras fotografías y video favoritos de la celebración — bicicletas, tierra y agua en su máxima expresión. La galería completa está disponible más abajo.</p>
+</header>
+
+<section>
+  <div class="eyebrow">Preview</div>
+  <div class="section-title">Video del día</div>
+  <div class="video-grid">
+
+    <div class="video-card">
+      <video controls preload="metadata" playsinline muted poster="videos/video-01-poster.jpg">
+        <source src="videos/video-01.mp4" type="video/mp4">
+      </video>
+      <div class="video-caption">Highlight — Fiesta BMX</div>
+    </div>
+
+    <div class="video-card">
+      <video controls preload="metadata" playsinline muted poster="videos/video-02-poster.jpg">
+        <source src="videos/video-02.mp4" type="video/mp4">
+      </video>
+      <div class="video-caption">Highlight vertical</div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Preview</div>
+  <div class="section-title">Fotografías favoritas</div>
+  <div class="photo-grid">
+    <img src="fotos/DSC06841.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06931 (1).jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06990 (1).jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/Imagen-21.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07088.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07571.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07308.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07097.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07068.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07304.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06877.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06933.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06952.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06990.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06978.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06906.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06839.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06892.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06886.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06931.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/Imagen-25.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07566.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07322.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07196.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07046.jpg" alt="Fiesta de Juan Daniel">
+  </div>
+</section>
+
+<section>
+  <div class="drive-cta">
+    <div class="eyebrow">Galería completa</div>
+    <h3>Todas las fotos y el video completo</h3>
+    <p>Esta es solo una probadita. La galería completa —con todas las fotografías en alta resolución y el video completo— está lista para descargar.</p>
+    <a class="drive-btn" href="https://drive.google.com/drive/folders/1tZKO9ZophU28cQ7DGmyEeB7SVD1SHmAE?usp=sharing" target="_blank" rel="noopener">Descargar galería completa</a>
+    <div class="download-note">Disponible para descarga durante 15 días a partir de hoy</div>
+  </div>
+</section>
+
+<footer>
+  <div class="sign-studio">APG Creative Studio</div>
+  <div class="sign-contact">
+    América García · <a href="https://wa.me/528120510233">812 051 0233</a><br>
+    Alan Picón · <a href="https://wa.me/528180118403">818 011 8403</a>
+  </div>
+</footer>
+
+</body>
+</html>
