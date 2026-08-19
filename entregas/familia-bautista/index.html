@@ -91,6 +91,19 @@
     line-height:1.6;
   }
 
+  .quality-note{
+    max-width:520px;
+    margin:0 auto;
+    text-align:center;
+    padding:16px 24px;
+    background:var(--paper-deep);
+    border:1px solid var(--line);
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:1.6;
+  }
+  .quality-note strong{ color:var(--ink); }
+
   section{
     max-width:1040px;
     margin:0 auto;
@@ -114,13 +127,13 @@
     border:1px solid var(--line);
     overflow:hidden;
   }
-  .video-card video{
+  .video-card iframe{
     width:100%;
     display:block;
     background:#000;
     aspect-ratio:9/16;
-    object-fit:cover;
     max-height:640px;
+    border:0;
   }
   .video-caption{
     padding:14px 16px;
@@ -217,23 +230,25 @@
   <p class="desc">Una selección de nuestras fotografías y video favoritos de la celebración — bicicletas, tierra y agua en su máxima expresión. La galería completa está disponible más abajo.</p>
 </header>
 
+<div style="padding:24px 20px 0;">
+  <div class="quality-note">
+    <strong>Nota:</strong> lo que ves aquí está comprimido para cargar rápido en esta página. Todas las fotos y el video en <strong>calidad completa</strong> están disponibles para descargar en el Drive.
+  </div>
+</div>
+
 <section>
   <div class="eyebrow">Preview</div>
   <div class="section-title">Video del día</div>
   <div class="video-grid">
 
     <div class="video-card">
-      <video controls preload="metadata" playsinline muted poster="videos/video-01-poster.jpg">
-        <source src="videos/video-01.mp4" type="video/mp4">
-      </video>
-      <div class="video-caption">Highlight — Fiesta BMX</div>
+      <iframe src="https://drive.google.com/file/d/1pBh6vU2cyhCIS3-g3GyCcgj8JMrfArRH/preview" allow="autoplay" allowfullscreen></iframe>
+      <div class="video-caption">Jackass JD</div>
     </div>
 
     <div class="video-card">
-      <video controls preload="metadata" playsinline muted poster="videos/video-02-poster.jpg">
-        <source src="videos/video-02.mp4" type="video/mp4">
-      </video>
-      <div class="video-caption">Highlight vertical</div>
+      <iframe src="https://drive.google.com/file/d/1pUBhqoZCwDi76ufV1LHx7tEMJMjtqcj3/preview" allow="autoplay" allowfullscreen></iframe>
+      <div class="video-caption">JD Turns 3 — Videoclip</div>
     </div>
 
   </div>
@@ -243,31 +258,31 @@
   <div class="eyebrow">Preview</div>
   <div class="section-title">Fotografías favoritas</div>
   <div class="photo-grid">
-    <img src="fotos/DSC06841.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06839.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06886.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06892.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06906.jpg" alt="Fiesta de Juan Daniel">
     <img src="fotos/DSC06931 (1).jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06931.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06978.jpg" alt="Fiesta de Juan Daniel">
     <img src="fotos/DSC06990 (1).jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/Imagen-21.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC07088.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC07571.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC07308.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC07097.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07046.jpg" alt="Fiesta de Juan Daniel">
     <img src="fotos/DSC07068.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07088.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07097.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07196.jpg" alt="Fiesta de Juan Daniel">
     <img src="fotos/DSC07304.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07308.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07322.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07566.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC07571.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/Imagen-21.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/Imagen-25.jpg" alt="Fiesta de Juan Daniel">
+    <img src="fotos/DSC06841.jpg" alt="Fiesta de Juan Daniel">
     <img src="fotos/DSC06877.jpg" alt="Fiesta de Juan Daniel">
     <img src="fotos/DSC06933.jpg" alt="Fiesta de Juan Daniel">
     <img src="fotos/DSC06952.jpg" alt="Fiesta de Juan Daniel">
     <img src="fotos/DSC06990.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC06978.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC06906.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC06839.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC06892.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC06886.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC06931.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/Imagen-25.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC07566.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC07322.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC07196.jpg" alt="Fiesta de Juan Daniel">
-    <img src="fotos/DSC07046.jpg" alt="Fiesta de Juan Daniel">
   </div>
 </section>
 
@@ -291,3 +306,4 @@
 
 </body>
 </html>
+
