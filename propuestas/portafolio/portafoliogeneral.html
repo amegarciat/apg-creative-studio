@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio | APG Creative Studio</title>
+
+<link rel="canonical" href="https://amegarciat.github.io/apg-creative-studio/portafolio/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="APG Creative Studio">
+<meta property="og:title" content="Portafolio | APG Creative Studio">
+<meta property="og:description" content="Fotografía y video documental — bodas, XV años, corporativo, familia y contenido para redes.">
+<meta property="og:url" content="https://amegarciat.github.io/apg-creative-studio/portafolio/">
+<meta property="og:image" content="https://amegarciat.github.io/apg-creative-studio/entregas/fam-martinez-mejia/fotos/DSC09399.jpg">
+<meta property="og:image:secure_url" content="https://amegarciat.github.io/apg-creative-studio/entregas/fam-martinez-mejia/fotos/DSC09399.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="APG Creative Studio">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Portafolio | APG Creative Studio">
+<meta name="twitter:description" content="Fotografía y video documental — bodas, XV años, corporativo, familia y contenido para redes.">
+<meta name="twitter:image" content="https://amegarciat.github.io/apg-creative-studio/entregas/fam-martinez-mejia/fotos/DSC09399.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF7F0;
+    --paper-deep:#F2ECE0;
+    --ink:#1B1811;
+    --ink-soft:#4A443A;
+    --brass:#A8813F;
+    --brass-deep:#8A6A30;
+    --stone:#8A8377;
+    --line:#DED5C2;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--paper-deep);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .hero{
+    max-width:640px;
+    margin:0 auto;
+    padding:48px 24px 36px;
+    text-align:center;
+  }
+  .brand{
+    padding-bottom:24px;
+    margin-bottom:24px;
+    border-bottom:1px solid var(--line);
+  }
+  .monogram{
+    font-family:'Fraunces', serif;
+    font-size:16px;
+    letter-spacing:0.32em;
+    font-weight:500;
+    color:var(--ink);
+  }
+  .monogram-rule{
+    width:34px;
+    height:1px;
+    background:var(--brass);
+    margin:10px auto;
+  }
+  .tagline{
+    font-size:10.5px;
+    letter-spacing:0.14em;
+    color:var(--stone);
+    text-transform:uppercase;
+  }
+
+  .eyebrow{
+    font-size:11px;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--brass-deep);
+    margin-bottom:14px;
+    font-weight:600;
+  }
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:400;
+    font-size:34px;
+    line-height:1.2;
+    color:var(--ink);
+    margin-bottom:18px;
+  }
+  .hero-copy{
+    font-size:15px;
+    line-height:1.75;
+    color:var(--ink-soft);
+    max-width:460px;
+    margin:0 auto;
+  }
+
+  .hero-cta{ margin-top:28px; }
+  .btn{
+    display:inline-block;
+    padding:15px 34px;
+    background:var(--ink);
+    color:var(--paper);
+    text-decoration:none;
+    font-size:13px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    font-weight:500;
+  }
+  .btn-note{
+    margin-top:12px;
+    font-size:11.5px;
+    color:var(--stone);
+  }
+
+  /* Services strip */
+  .services{
+    max-width:640px;
+    margin:0 auto;
+    padding:6px 24px 40px;
+  }
+  .services-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .service{
+    background:var(--paper);
+    padding:18px 16px;
+    text-align:center;
+  }
+  .service-name{
+    font-family:'Fraunces', serif;
+    font-size:14.5px;
+    color:var(--ink);
+    margin-bottom:4px;
+  }
+  .service-desc{
+    font-size:11px;
+    color:var(--stone);
+    line-height:1.5;
+  }
+
+  /* Gallery */
+  .gallery-section{
+    max-width:920px;
+    margin:0 auto;
+    padding:12px 20px 8px;
+  }
+  .section-head{
+    text-align:center;
+    margin-bottom:22px;
+  }
+  .section-head .eyebrow{ margin-bottom:8px; }
+  .section-head h2{
+    font-family:'Fraunces', serif;
+    font-weight:400;
+    font-size:22px;
+    color:var(--ink);
+  }
+  .section-note{
+    font-size:12.5px;
+    color:var(--stone);
+    max-width:420px;
+    margin:8px auto 0;
+    line-height:1.6;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:6px;
+    margin-bottom:44px;
+  }
+  .grid img{
+    width:100%;
+    height:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    display:block;
+  }
+  @media (max-width:640px){
+    .grid{ grid-template-columns:repeat(2, 1fr); }
+  }
+
+  .closing{
+    max-width:520px;
+    margin:0 auto;
+    padding:8px 24px 56px;
+    text-align:center;
+  }
+  .closing p{
+    font-size:14px;
+    line-height:1.75;
+    color:var(--ink-soft);
+    margin-bottom:24px;
+  }
+
+  .sign{
+    max-width:640px;
+    margin:0 auto;
+    padding:26px 24px 48px;
+    border-top:1px solid var(--line);
+    text-align:center;
+  }
+  .sign-studio{
+    font-family:'Fraunces', serif;
+    font-size:15px;
+    color:var(--ink);
+    margin-bottom:4px;
+  }
+  .sign-role{
+    font-size:10.5px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--stone);
+    margin-bottom:14px;
+  }
+  .sign-contact{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.7;
+  }
+  .sign-contact a{ color:var(--brass-deep); text-decoration:none; }
+
+  @media (max-width:480px){
+    h1{ font-size:27px; }
+    .hero{ padding:38px 20px 30px; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="brand">
+      <div class="monogram">A P G</div>
+      <div class="monogram-rule"></div>
+      <div class="tagline">Photography · Films · Creative Production</div>
+    </div>
+
+    <div class="eyebrow">Portafolio</div>
+    <h1>Fotografía y video<br>documental</h1>
+    <p class="hero-copy">
+      Capturamos momentos reales — sin poses forzadas, sin guiones.
+      Bodas, XV años, eventos corporativos, sesiones de familia y contenido
+      para marcas, contados con la misma honestidad en cada entrega.
+    </p>
+    <div class="hero-cta">
+      <a class="btn" href="https://wa.me/528120510233?text=Hola%2C%20vi%20su%20portafolio%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener">Platiquemos de tu evento</a>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="services-grid">
+      <div class="service">
+        <div class="service-name">Bodas</div>
+        <div class="service-desc">Ceremonia, retratos y recepción</div>
+      </div>
+      <div class="service">
+        <div class="service-name">XV Años</div>
+        <div class="service-desc">Sesión, misa/ceremonia y fiesta</div>
+      </div>
+      <div class="service">
+        <div class="service-name">Corporativo</div>
+        <div class="service-desc">Conferencias, entrevistas, lanzamientos</div>
+      </div>
+      <div class="service">
+        <div class="service-name">Familia & Retratos</div>
+        <div class="service-desc">Sesiones de familia, maternidad y marca personal</div>
+      </div>
+      <div class="service">
+        <div class="service-name">Celebraciones</div>
+        <div class="service-desc">Cumpleaños y reuniones especiales</div>
+      </div>
+      <div class="service">
+        <div class="service-name">Contenido para redes</div>
+        <div class="service-desc">Reels y contenido recurrente para tu marca</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-section">
+    <div class="section-head">
+      <div class="eyebrow">Nuestro trabajo</div>
+      <h2>Momentos que hemos capturado</h2>
+    </div>
+    <div class="grid">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/fam-martinez-mejia/fotos/DSC09399.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/familia-bautista/fotos/DSC06886.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/sesionjimena/fotos/foto-01.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/familia-bautista/fotos/DSC07196.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/fam-martinez-mejia/fotos/DSC08767.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/familia-bautista/fotos/DSC07566.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/fam-martinez-mejia/fotos/DSC09574.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/familia-bautista/fotos/DSC06952.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/sesionjimena/fotos/foto-02.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/fam-martinez-mejia/fotos/DSC08265.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/familia-bautista/fotos/DSC07046.jpg" alt="Trabajo de APG Creative Studio">
+      <img src="https://amegarciat.github.io/apg-creative-studio/entregas/fam-martinez-mejia/fotos/DSC08562.jpg" alt="Trabajo de APG Creative Studio">
+    </div>
+  </div>
+
+  <div class="closing">
+    <p>¿Tienes un evento en puerta? Cuéntanos qué estás planeando y armamos una propuesta a tu medida.</p>
+    <a class="btn" href="https://wa.me/528120510233?text=Hola%2C%20quiero%20cotizar%20un%20evento" target="_blank" rel="noopener">Cotizar mi evento</a>
+  </div>
+
+  <div class="sign">
+    <div class="sign-studio">APG Creative Studio</div>
+    <div class="sign-role">Photography & Films</div>
+    <div class="sign-contact">
+      América García · <a href="https://wa.me/528120510233">812 051 0233</a><br>
+      Alan Picón · <a href="https://wa.me/528180118403">818 011 8403</a>
+    </div>
+  </div>
+
+</body>
+</html>
