@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrega Safari — Loreta y André | APG Creative Studio</title>
+
+<link rel="canonical" href="https://amegarciat.github.io/apg-creative-studio/entregas/andreloreta/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="APG Creative Studio">
+<meta property="og:title" content="Entrega Safari — Loreta y André | APG Creative Studio">
+<meta property="og:description" content="Fotos y videos de la fiesta safari de Loreta y André, preparados para Maru.">
+<meta property="og:url" content="https://amegarciat.github.io/apg-creative-studio/entregas/andreloreta/">
+<meta property="og:image" content="https://amegarciat.github.io/apg-creative-studio/propuestas/apgstudio.png">
+<meta property="og:image:secure_url" content="https://amegarciat.github.io/apg-creative-studio/propuestas/apgstudio.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Entrega de APG Creative Studio">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Entrega Safari — Loreta y André | APG Creative Studio">
+<meta name="twitter:description" content="Fotos y videos de la fiesta safari de Loreta y André, preparados para Maru.">
+<meta name="twitter:image" content="https://amegarciat.github.io/apg-creative-studio/propuestas/apgstudio.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --sand:#EBDDB5;
+    --kraft:#E3CF9A;
+    --cream:#FFF8E6;
+    --jungle:#2F5D3A;
+    --jungle-deep:#1F3F2A;
+    --leaf:#3F7A45;
+    --red:#C8362B;
+    --red-deep:#A52A21;
+    --sun:#F4B71F;
+    --ink:#2A1E14;
+    --ink-soft:#5A4632;
+    --trail:#B79A5E;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-behavior:smooth; }
+  body{
+    background:var(--sand);
+    color:var(--ink);
+    font-family:'Nunito', system-ui, sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding:24px 16px 48px;
+    display:flex;
+    justify-content:center;
+  }
+  .page{
+    width:100%;
+    max-width:600px;
+    background:var(--cream);
+    border:3px solid var(--ink);
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:6px 6px 0 var(--ink);
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{ background:#FCE9B5; }
+  .hero svg{ display:block; width:100%; height:auto; }
+  .hero-text{
+    text-align:center;
+    padding:26px 24px 30px;
+    background:var(--jungle);
+    color:var(--cream);
+    border-top:3px solid var(--ink);
+  }
+  .eyebrow{
+    display:inline-block;
+    font-family:'Fredoka', sans-serif;
+    font-weight:600;
+    font-size:12px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--ink);
+    background:var(--sun);
+    border:2px solid var(--ink);
+    border-radius:999px;
+    padding:5px 14px;
+    margin-bottom:14px;
+  }
+  h1{
+    font-family:'Fredoka', sans-serif;
+    font-weight:700;
+    font-size:clamp(32px, 9vw, 46px);
+    line-height:1.05;
+    color:var(--cream);
+  }
+  .for-line{
+    margin-top:12px;
+    font-size:16px;
+    color:#E8DDB8;
+  }
+  .for-line strong{ color:var(--sun); font-weight:700; }
+  .hero-desc{
+    margin:14px auto 0;
+    max-width:420px;
+    font-size:14.5px;
+    line-height:1.6;
+    color:#E8DDB8;
+  }
+
+  /* ---------- Quality note ---------- */
+  .note-wrap{ padding:22px 20px 0; }
+  .quality-note{
+    background:var(--kraft);
+    border:2px dashed var(--ink-soft);
+    border-radius:12px;
+    padding:14px 18px;
+    font-size:13px;
+    line-height:1.6;
+    color:var(--ink);
+    text-align:center;
+  }
+  .quality-note strong{ font-weight:700; }
+
+  /* ---------- Sections ---------- */
+  .section{ padding:36px 20px 8px; }
+  .section-head{ text-align:center; margin-bottom:22px; }
+  .section-tag{
+    font-family:'Fredoka', sans-serif;
+    font-weight:600;
+    font-size:12px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--red);
+    margin-bottom:4px;
+  }
+  .section-title{
+    font-family:'Fredoka', sans-serif;
+    font-weight:700;
+    font-size:28px;
+    color:var(--jungle-deep);
+  }
+
+  .trail{
+    display:block;
+    width:200px;
+    height:24px;
+    margin:30px auto 0;
+    color:var(--trail);
+  }
+
+  /* ---------- Videos ---------- */
+  .video-stack{ display:grid; gap:20px; }
+  .video-card{
+    background:var(--ink);
+    border:3px solid var(--ink);
+    border-radius:14px;
+    overflow:hidden;
+  }
+  .video-card iframe{
+    display:block;
+    width:100%;
+    border:0;
+    background:#000;
+  }
+  .video-card.wide iframe{ aspect-ratio:16/9; }
+  .video-card.tall{ max-width:340px; margin:0 auto; width:100%; }
+  .video-card.tall iframe{ aspect-ratio:9/16; }
+  .video-caption{
+    padding:10px 14px;
+    font-family:'Fredoka', sans-serif;
+    font-weight:500;
+    font-size:13px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--cream);
+    background:var(--red);
+    border-top:3px solid var(--ink);
+  }
+
+  /* ---------- Photos ---------- */
+  .photo-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px;
+  }
+  .photo-grid img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    display:block;
+    background:var(--kraft);
+    border:3px solid var(--ink);
+    border-radius:8px;
+  }
+  @media (max-width:520px){
+    .photo-grid{ grid-template-columns:repeat(2, 1fr); }
+  }
+
+  /* ---------- Drive CTA ---------- */
+  .drive-card{
+    margin:0 20px;
+    text-align:center;
+    background:var(--kraft);
+    border:3px solid var(--ink);
+    border-radius:16px;
+    padding:30px 22px 26px;
+    box-shadow:4px 4px 0 var(--ink);
+  }
+  .drive-card h3{
+    font-family:'Fredoka', sans-serif;
+    font-weight:700;
+    font-size:24px;
+    color:var(--jungle-deep);
+    margin-bottom:10px;
+  }
+  .drive-card p{
+    font-size:14px;
+    line-height:1.6;
+    color:var(--ink);
+    max-width:380px;
+    margin:0 auto 20px;
+  }
+  .drive-btn{
+    display:inline-block;
+    padding:14px 22px;
+    background:var(--red);
+    color:var(--cream);
+    text-decoration:none;
+    font-family:'Fredoka', sans-serif;
+    font-weight:600;
+    font-size:14px;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    border:3px solid var(--ink);
+    border-radius:999px;
+    box-shadow:0 4px 0 var(--ink);
+    transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .drive-btn:hover{ background:var(--red-deep); }
+  .drive-btn:active{ transform:translateY(3px); box-shadow:0 1px 0 var(--ink); }
+  .download-note{
+    margin-top:18px;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    color:var(--red-deep);
+  }
+
+  /* ---------- Footer ---------- */
+  footer{
+    margin-top:36px;
+    background:var(--jungle);
+    border-top:3px solid var(--ink);
+    text-align:center;
+    padding:28px 20px 30px;
+    color:var(--cream);
+  }
+  .sign-studio{
+    font-family:'Fredoka', sans-serif;
+    font-weight:700;
+    font-size:20px;
+    letter-spacing:0.04em;
+  }
+  .sign-role{
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:#CDBF92;
+    margin:4px 0 14px;
+  }
+  .sign-contact{ font-size:14px; line-height:1.8; color:#E8DDB8; }
+  .sign-contact a{ color:var(--sun); text-decoration:none; font-weight:700; }
+  .sign-contact a:hover{ text-decoration:underline; }
+
+  a:focus-visible, .drive-btn:focus-visible{
+    outline:3px solid var(--ink);
+    outline-offset:3px;
+  }
+  footer a:focus-visible{ outline-color:var(--sun); }
+
+  /* ---------- Motion (one gentle moment: animals bob in the hero) ---------- */
+  @media (prefers-reduced-motion: no-preference){
+    .bob{ animation:bob 5s ease-in-out infinite; }
+    .bob.b2{ animation-duration:6.5s; animation-delay:-1.5s; }
+    .bob.b3{ animation-duration:5.6s; animation-delay:-3s; }
+    @keyframes bob{
+      0%,100%{ transform:translateY(0); }
+      50%{ transform:translateY(-3px); }
+    }
+  }
+
+  @media (max-width:380px){
+    .section{ padding-left:14px; padding-right:14px; }
+    .drive-card{ margin:0 14px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Dibujos reutilizables (animales originales, estilo plano) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="elephant" viewBox="0 0 120 120">
+      <circle cx="27" cy="56" r="24" fill="#98A4B2"/>
+      <circle cx="27" cy="56" r="14" fill="#E8B4AE"/>
+      <circle cx="93" cy="56" r="24" fill="#98A4B2"/>
+      <circle cx="93" cy="56" r="14" fill="#E8B4AE"/>
+      <ellipse cx="60" cy="56" rx="35" ry="36" fill="#AEB9C6"/>
+      <path d="M60 72 V96 Q60 108 71 106" fill="none" stroke="#AEB9C6" stroke-width="17" stroke-linecap="round"/>
+      <path d="M44 80 Q38 94 47 102" fill="none" stroke="#FFF8E6" stroke-width="5" stroke-linecap="round"/>
+      <path d="M76 80 Q82 94 73 102" fill="none" stroke="#FFF8E6" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="47" cy="50" r="3.4" fill="#2A1E14"/>
+      <circle cx="73" cy="50" r="3.4" fill="#2A1E14"/>
+      <path d="M52 40 Q47 36 42 39 M68 40 Q73 36 78 39" fill="none" stroke="#7B8794" stroke-width="2.4" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="tiger" viewBox="0 0 120 120">
+      <circle cx="33" cy="33" r="13" fill="#F29A2E"/>
+      <circle cx="33" cy="33" r="6.5" fill="#FFF8E6"/>
+      <circle cx="87" cy="33" r="13" fill="#F29A2E"/>
+      <circle cx="87" cy="33" r="6.5" fill="#FFF8E6"/>
+      <circle cx="60" cy="62" r="34" fill="#F29A2E"/>
+      <g stroke="#2A1E14" stroke-width="3.2" stroke-linecap="round" fill="none">
+        <path d="M60 30 V43"/>
+        <path d="M49 33 L52 44"/>
+        <path d="M71 33 L68 44"/>
+        <path d="M27 60 H39"/>
+        <path d="M29 71 L40 68"/>
+        <path d="M93 60 H81"/>
+        <path d="M91 71 L80 68"/>
+      </g>
+      <ellipse cx="60" cy="78" rx="17" ry="13" fill="#FFF8E6"/>
+      <circle cx="48" cy="56" r="4" fill="#2A1E14"/>
+      <circle cx="72" cy="56" r="4" fill="#2A1E14"/>
+      <circle cx="49.4" cy="54.6" r="1.3" fill="#FFF8E6"/>
+      <circle cx="73.4" cy="54.6" r="1.3" fill="#FFF8E6"/>
+      <path d="M54 70 H66 L60 77 Z" fill="#D9695F"/>
+      <path d="M60 77 V82 M60 82 Q54 87 50 83 M60 82 Q66 87 70 83" fill="none" stroke="#2A1E14" stroke-width="2.2" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="giraffe" viewBox="0 0 120 120">
+      <path d="M48 120 L56 36 Q66 32 77 36 L78 120 Z" fill="#F4BE55"/>
+      <g fill="#B9732B">
+        <circle cx="62" cy="62" r="5.5"/>
+        <circle cx="71" cy="80" r="6.5"/>
+        <circle cx="58" cy="94" r="5.5"/>
+        <circle cx="70" cy="52" r="4"/>
+        <circle cx="66" cy="108" r="5.5"/>
+      </g>
+      <ellipse cx="80" cy="29" rx="18" ry="11" fill="#F4BE55"/>
+      <ellipse cx="62" cy="21" rx="7" ry="3.4" transform="rotate(-30 62 21)" fill="#F4BE55"/>
+      <path d="M69 20 L67 8 M77 19 L79 8" stroke="#B9732B" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="67" cy="7" r="3.2" fill="#2A1E14"/>
+      <circle cx="79" cy="7" r="3.2" fill="#2A1E14"/>
+      <circle cx="84" cy="26" r="2.4" fill="#2A1E14"/>
+      <ellipse cx="94" cy="32" rx="3" ry="2" fill="#B9732B"/>
+    </symbol>
+
+    <symbol id="snake" viewBox="0 0 120 120">
+      <path id="snakeBody" d="M12 102 C28 78 48 116 64 90 S92 76 98 56" fill="none" stroke="#4E9A3F" stroke-width="13" stroke-linecap="round"/>
+      <path d="M12 102 C28 78 48 116 64 90 S92 76 98 56" fill="none" stroke="#F4B71F" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 12"/>
+      <ellipse cx="100" cy="50" rx="11" ry="9" fill="#4E9A3F" transform="rotate(-25 100 50)"/>
+      <circle cx="97" cy="47" r="3.4" fill="#FFF8E6"/>
+      <circle cx="97.6" cy="47" r="1.6" fill="#2A1E14"/>
+      <path d="M108 45 L117 41 M113 43 L118 46" fill="none" stroke="#C8362B" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="paw" viewBox="0 0 24 24">
+      <ellipse cx="12" cy="16" rx="6" ry="5" fill="currentColor"/>
+      <ellipse cx="5" cy="10" rx="2.4" ry="3.2" fill="currentColor"/>
+      <ellipse cx="10" cy="5.5" rx="2.4" ry="3.2" fill="currentColor"/>
+      <ellipse cx="15" cy="5.5" rx="2.4" ry="3.2" fill="currentColor"/>
+      <ellipse cx="20" cy="10" rx="2.4" ry="3.2" fill="currentColor"/>
+    </symbol>
+  </defs>
+</svg>
+
+<main class="page">
+
+  <!-- HERO: paisaje safari -->
+  <header class="hero">
+    <svg viewBox="0 0 560 250" role="img" aria-label="Paisaje de safari con elefante, tigre, jirafa y serpiente entre el pasto">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#FCE9B5"/>
+          <stop offset="1" stop-color="#F7CF6E"/>
+        </linearGradient>
+        <pattern id="grass" x="0" y="198" width="28" height="44" patternUnits="userSpaceOnUse">
+          <path d="M0 44 V18 L7 3 L14 18 L21 3 L28 18 V44 Z" fill="#2F5D3A"/>
+        </pattern>
+      </defs>
+
+      <rect width="560" height="250" fill="url(#sky)"/>
+
+      <!-- sol -->
+      <circle cx="492" cy="62" r="52" fill="#F4B71F" opacity="0.28"/>
+      <circle cx="492" cy="62" r="36" fill="#F4B71F"/>
+
+      <!-- nubes -->
+      <g fill="#FFF8E6" opacity="0.85">
+        <ellipse cx="120" cy="46" rx="34" ry="9"/>
+        <ellipse cx="144" cy="40" rx="22" ry="8"/>
+        <ellipse cx="320" cy="30" rx="30" ry="8"/>
+        <ellipse cx="342" cy="25" rx="18" ry="7"/>
+      </g>
+
+      <!-- colinas -->
+      <path d="M0 178 Q90 138 190 172 T380 166 T560 154 V250 H0 Z" fill="#9CBC6E"/>
+      <path d="M0 206 Q120 176 240 204 T560 196 V250 H0 Z" fill="#3F7A45"/>
+
+      <!-- acacia -->
+      <path d="M62 208 Q66 176 58 152" fill="none" stroke="#5A3A22" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="58" cy="150" rx="46" ry="12" fill="#2F5D3A"/>
+      <ellipse cx="42" cy="156" rx="26" ry="8" fill="#3F7A45"/>
+
+      <!-- animales asomándose por el pasto -->
+      <use class="bob" href="#elephant" x="116" y="94" width="100" height="100"/>
+      <use class="bob b2" href="#tiger" x="244" y="132" width="72" height="72"/>
+      <use class="bob b3" href="#giraffe" x="326" y="50" width="156" height="156"/>
+
+      <!-- pasto al frente -->
+      <rect x="0" y="198" width="560" height="52" fill="url(#grass)"/>
+
+      <!-- serpiente sobre el pasto -->
+      <use href="#snake" x="14" y="144" width="96" height="96"/>
+    </svg>
+
+    <div class="hero-text">
+      <div class="eyebrow">Fiesta safari · Entrega</div>
+      <h1>Loreta y André</h1>
+      <div class="for-line">Para: <strong>Maru</strong></div>
+      <p class="hero-desc">Una selección de nuestras fotos y videos favoritos de la aventura. La galería completa está disponible más abajo.</p>
+    </div>
+  </header>
+
+  <!-- Aviso de calidad -->
+  <div class="note-wrap">
+    <div class="quality-note">
+      <strong>Nota:</strong> lo que ves aquí está comprimido para cargar rápido en esta página. Todas las fotos y los videos en <strong>calidad completa</strong> están disponibles para descargar en el Drive.
+    </div>
+  </div>
+
+  <!-- VIDEOS -->
+  <section class="section">
+    <div class="section-head">
+      <div class="section-tag">Preview</div>
+      <h2 class="section-title">Videos de la aventura</h2>
+    </div>
+    <div class="video-stack">
+
+      <div class="video-card wide">
+        <iframe src="https://drive.google.com/file/d/PEGA-AQUI-EL-ID-DEL-VIDEO-01/preview" title="Video highlight de la fiesta" allow="autoplay" allowfullscreen loading="lazy"></iframe>
+        <div class="video-caption">Highlight de la fiesta</div>
+      </div>
+
+      <div class="video-card wide">
+        <iframe src="https://drive.google.com/file/d/PEGA-AQUI-EL-ID-DEL-VIDEO-02/preview" title="Segundo video de la fiesta" allow="autoplay" allowfullscreen loading="lazy"></iframe>
+        <div class="video-caption">Momentos de la fiesta</div>
+      </div>
+
+    </div>
+  </section>
+
+  <svg class="trail" viewBox="0 0 200 24" aria-hidden="true">
+    <use href="#paw" x="4"   y="4"  width="16" height="16" transform="rotate(-12 12 12)"/>
+    <use href="#paw" x="44"  y="2"  width="16" height="16" transform="rotate(10 52 10)"/>
+    <use href="#paw" x="84"  y="5"  width="16" height="16" transform="rotate(-8 92 13)"/>
+    <use href="#paw" x="124" y="2"  width="16" height="16" transform="rotate(12 132 10)"/>
+    <use href="#paw" x="164" y="4"  width="16" height="16" transform="rotate(-10 172 12)"/>
+  </svg>
+
+  <!-- FOTOS -->
+  <section class="section">
+    <div class="section-head">
+      <div class="section-tag">Preview</div>
+      <h2 class="section-title">Fotos favoritas</h2>
+    </div>
+    <div class="photo-grid">
+      <!-- Reemplaza estos nombres por los de tus fotos reales. Las que no existan se ocultan solas. -->
+      <img src="foto-01.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-02.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-03.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-04.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-05.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-06.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-07.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-08.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-09.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-10.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-11.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+      <img src="foto-12.jpg" alt="Fiesta safari de Loreta y André" loading="lazy" onerror="this.remove()">
+    </div>
+  </section>
+
+  <svg class="trail" viewBox="0 0 200 24" aria-hidden="true">
+    <use href="#paw" x="4"   y="4"  width="16" height="16" transform="rotate(-12 12 12)"/>
+    <use href="#paw" x="44"  y="2"  width="16" height="16" transform="rotate(10 52 10)"/>
+    <use href="#paw" x="84"  y="5"  width="16" height="16" transform="rotate(-8 92 13)"/>
+    <use href="#paw" x="124" y="2"  width="16" height="16" transform="rotate(12 132 10)"/>
+    <use href="#paw" x="164" y="4"  width="16" height="16" transform="rotate(-10 172 12)"/>
+  </svg>
+
+  <!-- GALERÍA COMPLETA -->
+  <section class="section">
+    <div class="drive-card">
+      <div class="section-tag">Galería completa</div>
+      <h3>Todas las fotos y videos</h3>
+      <p>Esta es solo una probadita. La galería completa, con todo en alta resolución, está lista para descargar.</p>
+      <a class="drive-btn" href="https://drive.google.com/drive/folders/1qWE8_khJqWlhw8RQnEUzcJxSZM-fA1Lf?usp=drive_link" target="_blank" rel="noopener">Descargar galería completa</a>
+      <div class="download-note">Disponible para descarga durante 15 días a partir de hoy</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="sign-studio">APG Creative Studio</div>
+    <div class="sign-role">Photography &amp; Films</div>
+    <div class="sign-contact">
+      América García · <a href="https://wa.me/528120510233">812 051 0233</a><br>
+      Alan Picón · <a href="https://wa.me/528180118403">818 011 8403</a><br>
+      <a href="https://www.instagram.com/apgstudio.mx/" target="_blank" rel="noopener">@apgstudio.mx</a>
+    </div>
+  </footer>
+
+</main>
+
+</body>
+</html>
